@@ -1,11 +1,14 @@
 @import "./variables";
 
 .header {
+  padding: 15px 5px;
+  background: $white;
+}
+.header-wrapper{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 15px 5px;
-  background: $white;
+
 }
 .header-logo {
   font-size: $large-size;

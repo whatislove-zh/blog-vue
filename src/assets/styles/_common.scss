@@ -14,6 +14,13 @@ body {
   font-family: "Montserrat", sans-serif;
   background: $whet;
 }
+
+.container{
+  max-width: $lg;
+  margin: auto;
+}
+
+
 .nav {
   display: flex;
   align-items: center;
